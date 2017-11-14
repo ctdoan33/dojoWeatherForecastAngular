@@ -1,0 +1,11 @@
+<div class="border">
+	<h1>Burbank, CA</h1>
+	<p class="block">
+		Humidity: {{humidity}}<br>
+		Temperature (Average): {{avgtemp}}<br>
+		Temperature (High): {{hightemp}}<br>
+		Temperature (Low): {{lowtemp}}<br>
+		Status:<span *ngFor="let x of status"> {{x.description}}</span>
+	</p>
+	<img src="/assets/Burbank.jpg" alt="Burbank" class="block">
+</div>
